@@ -23,6 +23,6 @@ puts Store.count
 @store1.employees.create(first_name: "Sae1", last_name: "Ju", hourly_rate: 40)
 @store2.employees.create(first_name: "Sae2", last_name: "Virani", hourly_rate: 34)
 @store2.employees.create(first_name: "Sae3", last_name: "dfef", hourly_rate: 50)
-@store2.employees.create(first_name: "candy", last_name: "bar", hourly_rate: 46)
+@store2.employees.create(first_name: "ca", last_name: "bar", hourly_rate: 46)
 
 puts Employee.count   #5 employeee 
